@@ -1,0 +1,28 @@
+.transactionHistory {
+  width: 400px;
+  margin: 0 auto;
+  align-items: center;
+  border-radius: 4px;
+  border: 2px solid rgb(51, 196, 172);
+  box-shadow: 0px 4px 10px rgba(139, 139, 139, 0.5);
+}
+/* .tableHead {
+} */
+
+.tableTitle {
+  background-color: rgb(51, 196, 172);
+  color: #fff;
+  height: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.tableRow {
+  height: 40px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  background-color: rgb(51, 196, 172, 0.1);
+}
+.tableRow:nth-child(2n) {
+  background-color: rgb(255, 255, 255, 0.8);
+}
