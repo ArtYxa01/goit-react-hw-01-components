@@ -1,5 +1,5 @@
 import { PropTypes } from 'prop-types';
-import { StyledProfile } from './Profile.Styled';
+import  css  from './Profile.module.css';
 
 function Profile({
   username,
@@ -9,7 +9,7 @@ function Profile({
   stats: { followers, views, likes },
 }) {
   return (
-    <StyledProfile>
+    <>
       <div className="description">
         <img src={avatar} alt={username} className="avatar" />
         <p className="name">{username}</p>
@@ -31,7 +31,7 @@ function Profile({
           <span className="quantity">{likes}</span>
         </li>
       </ul>
-    </StyledProfile>
+      </>
   );
 }
 

@@ -34,6 +34,7 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
+  display: block;
 }
 .isOnline {
   background-color: rgb(51, 196, 172);

@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './FriendList.module.css';
 
-export const FriendsListItem = ({ avatar, name, isOnline, id }) => {
+export const FriendsListItem = ({ avatar, name, isOnline }) => {
   return (
     <li className={css.item}>
       <span
@@ -17,5 +17,4 @@ FriendsListItem.propTypes = {
   avatar: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   isOnline: PropTypes.bool.isRequired,
-  id: PropTypes.string,
 };
