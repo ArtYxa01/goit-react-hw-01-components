@@ -28,6 +28,3 @@ export const TransactionHistory = ({ items }) => {
 TransactionHistory.propTypes = {
   items: PropTypes.array,
 };
-TransactionHistory.propTypes = {
-  items: PropTypes.array,
-};
